@@ -1,0 +1,52 @@
+:root{
+    --main: linear-gradient(90deg,#833ab4,#fd1d1d,#fcb045);
+
+}
+.nftbox{
+    background-image: url(../assets/big-glass-data.jpg);
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+    margin: 5px;
+}
+.nftboxDiv{
+    display: flex;
+    justify-content: space-around;
+    overflow-x: scroll;
+    width: 70%;
+    align-self: center;
+    justify-self:center;
+    margin: auto;
+}
+.nftTag{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 75%;
+    margin-bottom: 10px;
+}
+.namepriceTag{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+}
+.nftTag button{
+    width: 80%;
+    background-image: var(--main);
+    border: none;
+    padding: 2px;
+    color: white;
+}
+#nftbox2{
+    background-image: url(../assets/cyber-city-circuits-10896653.jpg);
+}
+#nftbox4{
+    background-image: url(../assets/blockchain-digital-chain-blockchain-digital-chain-blocks-connection-shape-big-data-box-node-base-concept-d-rendering-98807091.jpg);
+}
+.collectsome{
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+.CardCollectionDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0px;
+}
+.CardImgDiv {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 50px;
+  border: 3px solid hotpink;
+
+  
+}
+.CardImgDiv .imgdiv {
+  height: 200px;
+  width: 200px;
+  background-image: url(../assets/spider-g866f06237_1920.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 2px solid;
+  border-radius: 100%;
+  border: 3px solid  #833ab4;
+
+  /* border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+  border-image-slice: 1; */
+  background-color: transparent;
+  color: white;
+}
+.CardImgDiv a{
+    color: white;
+}
+

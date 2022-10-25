@@ -1,0 +1,44 @@
+:root {
+  --gradient: linear-gradient(90deg,#833ab4,#fd1d1d,#fcb045);
+}
+.marketplacediv {
+  display: flex;
+  justify-content: space-around;
+}
+.blockimg {
+  border-radius: 100%;
+  align-self: center;
+  width: 40%;
+}
+.blockDiv {
+  justify-content: center;
+  display: flex;
+  width: 40%;
+}
+.marketDiv {
+  width: 40%;
+}
+.CreateNftsBt{
+    border: 3px solid hotpink;
+    border-image: linear-gradient(90deg,#833ab4,#fd1d1d,#fcb045);
+    border-image-slice: 1;
+    background-color: transparent;
+    color: white;
+}
+.GetStartedBt{
+    background-image:var(--gradient);
+    border:none;
+    padding: 4px;
+    color: white;
+    
+}
+.getDiv{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+
+}
+.coinDiv{
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,72 @@
+:root {
+  --main: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+}
+.topcreatorsDiv {
+  width: 50%;
+  margin: auto;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+.card {
+  padding: 20px;
+  margin: 0 10px 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  border: 3px solid hotpink;
+  border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+  border-image-slice: 1;
+  background-color: transparent;
+  color: white;
+}
+.card .imageDiv {
+  background-image: url(../assets/cube.png.webp);
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card button {
+  margin: 20px 0 0 0;
+  padding: 5px;
+  border-radius: 0px;
+  border: none;
+  background-color: var(--main);
+  color: white;
+}
+.aliendiv {
+  width: 40%;
+  justify-content: center;
+  text-align: center;
+}
+.aliendiv img {
+  width: 50%;
+}
+.fatheraliendiv {
+  display: flex;
+  justify-content: space-around;
+
+}
+.updatediv{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.updatediv button{
+    background-image: var(--main);
+    width: 50%;
+    color: white;
+    margin-bottom: 10px;
+}
+.maintopcreators{
+    padding: 5px;
+}

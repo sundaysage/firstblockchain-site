@@ -1,0 +1,12 @@
+body {
+  margin: 0%;
+  
+ background: linear-gradient(90deg,#09010e,#2a0e3d);
+  /* background: rgb(44, 43, 43); */
+  color: white;
+}
+h1 {
+  background: -webkit-linear-gradient(red, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
