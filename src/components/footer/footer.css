@@ -1,0 +1,23 @@
+.newgenfooterdiv{
+    width: 20%;
+}
+.sociallinkdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.mainFooter{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    justify-content: space-around;
+}
+.footerUlDiv{
+    display: flex;
+}
+.footerUlDiv ul{
+    display: flex;
+    flex-direction: column;
+}
+.footerUlDiv ul a{
+    color: white;
+}
