@@ -42,3 +42,24 @@
     display: flex;
     justify-content: space-around;
 }
+@media only screen and (max-width: 450px){
+  .marketplacediv{
+    text-align: center;
+    background-color: #833ab4;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  .marketDiv{
+    text-align: center;
+    width: 100%;
+    background-color: #fd1d1d;
+    margin: auto;
+  }
+  .blockimg{
+    display: none;
+  }
+  .blockDiv{
+    display: none;
+  }
+}

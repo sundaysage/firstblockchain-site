@@ -8,9 +8,13 @@
   --mix: linear-gradient(red, blue);
   --maincolor: linear-gradient(#833ab4, #fd1d1d, #fcb045);
 }
-button{
+button {
   cursor: grab;
 }
+.more {
+  display: none;
+}
+
 li {
   list-style-type: none;
   text-decoration: none;
@@ -22,16 +26,17 @@ a {
 nav {
   display: flex;
   justify-content: space-around;
+  /* width: 80%; */
 }
 
-.logupbtDiv{
+.logupbtDiv {
   display: flex;
   padding: 5px;
-  width: 10%;
+  width: 20%;
   justify-content: space-around;
 }
 .navlist2 {
-  width: 50%;
+  width: 70%;
   display: flex;
   justify-content: space-evenly;
 }
@@ -45,7 +50,7 @@ nav {
 }
 .Signupbt {
   border: 3px solid hotpink;
-  border-image: linear-gradient(90deg,#833ab4,#fd1d1d,#fcb045);
+  border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
   border-image-slice: 1;
   background-color: transparent;
   color: white;
@@ -55,4 +60,49 @@ nav {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+.mainNav {
+  display: flex;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 450px) {
+  .more {
+    margin-left: 50px;
+    position: absolute;
+    display: flex;
+    text-align: center;
+  }
+  nav {
+    flex-direction: column;
+    /* text-align: center; */
+    /* margin: auto; */
+  }
+  .logupbtDiv {
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+  }
+  .mainNav {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+  .navlist2 {
+    top: 0;
+    left: 0;
+    position: fixed;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15%;
+    justify-content: space-around;
+    background-color: var(--lightbluegray);
+    display: none;
+  }
+  .navlist2 a {
+    margin: 10px;
+  }
+  .loginbt {
+    margin-bottom: 5px;
+  }
+}
