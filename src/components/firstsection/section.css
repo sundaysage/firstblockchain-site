@@ -45,7 +45,6 @@
 @media only screen and (max-width: 450px){
   .marketplacediv{
     text-align: center;
-    background-color: #833ab4;
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -53,7 +52,6 @@
   .marketDiv{
     text-align: center;
     width: 100%;
-    background-color: #fd1d1d;
     margin: auto;
   }
   .blockimg{
@@ -61,5 +59,17 @@
   }
   .blockDiv{
     display: none;
+  }
+  .getDiv{
+    width: 100%;
+    justify-content: center ;
+  }
+  .getDiv button{
+    margin: 5px;
+  }
+  .coinDiv{
+    text-align: center;
+    display: grid;
+    grid-template-columns:2fr 2fr;
   }
 }
