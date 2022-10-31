@@ -33,4 +33,7 @@
     .mainFooter{
         flex-direction: column;
     }
+    .sociallinkdiv{
+        padding: 15px;
+    }
 }
