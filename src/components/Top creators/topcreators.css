@@ -70,3 +70,8 @@
 .maintopcreators{
     padding: 5px;
 }
+@media only screen and (max-width: 450px){
+  .aliendiv{
+    display: none;
+  }
+}

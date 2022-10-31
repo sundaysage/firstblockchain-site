@@ -21,3 +21,16 @@
 .footerUlDiv ul a{
     color: white;
 }
+@media only screen and (max-width: 450px){
+    .footerUlDiv{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+    .newgenfooterdiv{
+        width: 100%;
+        text-align: center;
+    }
+    .mainFooter{
+        flex-direction: column;
+    }
+}

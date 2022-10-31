@@ -13,7 +13,7 @@ const Somenft = () => {
             <div className="namepriceTag">
               <div>
                 <p>Glass data</p>
-                <p>SAGE</p>
+                <p>SAGE</p>f
               </div>
               <p>0.5ETH</p>
             </div>
