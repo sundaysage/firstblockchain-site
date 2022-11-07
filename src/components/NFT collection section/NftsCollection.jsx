@@ -16,29 +16,37 @@ const NftsCollection = () => {
               <div className="imgdiv">
                 <img src="" alt="" />
               </div>
-              <p>Broken Collection</p>
-              <a href="#">view Collection</a>
+              <div className="broken">
+                <h3>Broken Collection</h3>
+                <a href="#">view Collection</a>
+              </div>
             </div>
             <div className="CardImgDiv">
               <div className="imgdiv">
                 <img src="" alt="" />
               </div>
-              <p>Broken Collection</p>
-              <a href="#">view Collection</a>
+              <div className="broken">
+                <h3>Broken Collection</h3>
+                <a href="#">view Collection</a>
+              </div>
             </div>
             <div className="CardImgDiv">
               <div className="imgdiv">
                 <img src="" alt="" />
               </div>
-              <p>Broken Collection</p>
-              <a href="#">view Collection</a>
+              <div className="broken">
+                <h3>Broken Collection</h3>
+                <a href="#">view Collection</a>
+              </div>
             </div>
             <div className="CardImgDiv">
               <div className="imgdiv">
                 <img src="" alt="" />
               </div>
-              <p>Broken Collection</p>
-              <a href="#">view Collection</a>
+              <div className="broken">
+                <h3>Broken Collection</h3>
+                <a href="#">view Collection</a>
+              </div>
             </div>
           </div>
         </div>

@@ -23,8 +23,8 @@ const Nav = () => {
             <li>Community</li>
           </a>
           <div className="logupbtDiv">
-            <button className="loginbt">Login</button>
-            <button className="Signupbt">Signup</button>
+            <button className="loginbt">Log in</button>
+            <button className="Signupbt">Sign up</button>
           </div>
         </div>
       </nav>

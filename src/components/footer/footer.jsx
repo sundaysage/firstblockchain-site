@@ -4,7 +4,10 @@ const footer = () => {
   return (
     <div className="mainFooter">
       <div className="newgenfooterdiv">
-        <h4>NewGen</h4>
+        <h4>
+          <span className="new">New</span>
+          <span className="gen">Gen</span>
+        </h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum odio
           voluptatem incidunt sint, eos officia facere animi neque accusantium

@@ -8,7 +8,7 @@ const Section1 = () => {
       <div>
         <div className="marketplacediv">
           <div className="marketDiv">
-            <h1>Best NFTs Marketplace.</h1>
+            <h1 className="best">Best NFTs Marketplace.</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil <br />
               non facere aperiam nisi, sequi, animi quos adipisci dolores <br />

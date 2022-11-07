@@ -1,12 +1,7 @@
 body {
-  
-  
- background: linear-gradient(90deg,#09010e,#2a0e3d);
+  background: linear-gradient(90deg, #09010e, #2a0e3d);
+  /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
   /* background: rgb(44, 43, 43); */
   color: white;
-}
-h1 {
-  background: -webkit-linear-gradient(red, blue);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-family: calibri;
 }

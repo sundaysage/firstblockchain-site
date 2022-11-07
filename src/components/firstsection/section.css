@@ -1,5 +1,5 @@
 :root {
-  --gradient: linear-gradient(90deg,#833ab4,#fd1d1d,#fcb045);
+  --gradient: linear-gradient(rgb(102, 70, 255), rgb(174, 104, 220));
 }
 .marketplacediv {
   display: flex;
@@ -18,58 +18,62 @@
 .marketDiv {
   width: 40%;
 }
-.CreateNftsBt{
-    border: 3px solid hotpink;
-    border-image: linear-gradient(90deg,#833ab4,#fd1d1d,#fcb045);
-    border-image-slice: 1;
-    background-color: transparent;
-    color: white;
+.best {
+  background: -webkit-linear-gradient(rgb(102, 70, 255), rgb(174, 104, 220));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.GetStartedBt{
-    background-image:var(--gradient);
-    border:none;
-    padding: 4px;
-    color: white;
-    
+.CreateNftsBt {
+  margin-left: 3px;
+  border: 1px solid;
+  border-image: linear-gradient(90deg, rgb(102, 70, 255), rgb(174, 104, 220));
+  border-image-slice: 1;
+  background-color: transparent;
+  color: white;
 }
-.getDiv{
-    display: flex;
-    width: 50%;
-    justify-content: space-around;
-
+.GetStartedBt {
+  background-image: var(--gradient);
+  border: none;
+  padding: 4px;
+  color: white;
 }
-.coinDiv{
-    display: flex;
-    justify-content: space-around;
+.getDiv {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
 }
-@media only screen and (max-width: 450px){
-  .marketplacediv{
+.coinDiv {
+  display: flex;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 450px) {
+  .marketplacediv {
     text-align: center;
     display: flex;
     justify-content: center;
     padding: 10px;
   }
-  .marketDiv{
+  .marketDiv {
     text-align: center;
     width: 100%;
     margin: auto;
   }
-  .blockimg{
+  .blockimg {
     display: none;
   }
-  .blockDiv{
+  .blockDiv {
     display: none;
   }
-  .getDiv{
+  .getDiv {
     width: 100%;
-    justify-content: center ;
+    justify-content: center;
   }
-  .getDiv button{
+  .getDiv button {
     margin: 5px;
   }
-  .coinDiv{
+  .coinDiv {
     text-align: center;
     display: grid;
-    grid-template-columns:2fr 2fr;
+    grid-template-columns: 2fr 2fr;
   }
 }

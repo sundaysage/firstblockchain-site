@@ -6,7 +6,9 @@
   --lightbluegray: rgb(53, 52, 68);
   --smallgreen: rgb(26, 245, 26);
   --mix: linear-gradient(red, blue);
-  --maincolor: linear-gradient(#833ab4, #fd1d1d, #fcb045);
+  --maincolor: linear-gradient(#833ab4);
+  --mainreal: rgb(174, 104, 220);
+  --theblue: rgb(102, 70, 255);
 }
 button {
   cursor: grab;
@@ -43,22 +45,36 @@ nav {
 .navlist2 a {
   color: white;
 }
+.navlist2 a :hover{
+  color:var(--mainreal);
+}
 .loginbt {
-  background-image: linear-gradient(#833ab4, #fd1d1d, #fcb045);
+  background-image: linear-gradient(rgb(102, 70, 255), rgb(174, 104, 220));
   border: 0px;
   color: white;
 }
 .Signupbt {
-  border: 3px solid hotpink;
-  border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+  margin-left: 3px;
+  border: 1px solid ;
+  border-image: linear-gradient(90deg, rgb(102, 70, 255), rgb(174, 104, 220));
   border-image-slice: 1;
   background-color: transparent;
   color: white;
 }
 .new {
-  background: -webkit-linear-gradient(left, #833ab4, #fd1d1d, #fcb045);
+  background: -webkit-linear-gradient(
+    left,
+    rgb(102, 70, 255),
+    rgb(174, 104, 220)
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+}
+.gen {
+  -webkit-text-stroke: 0.5px rgb(174, 104, 220);
+  color: transparent;
+  font-weight: bolder;
 }
 .mainNav {
   display: flex;

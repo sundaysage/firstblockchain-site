@@ -17,30 +17,28 @@ const topcreators = () => {
       <div className="cardContainer">
         <div className="card">
           <div className="imageDiv"></div>
+          <p>Emenike </p>
           <a href="">
             <button>Purchase</button>
           </a>
         </div>
         <div className="card">
           <div className="imageDiv"></div>
+          <p>Sunday</p>
           <a href="">
             <button>Purchase</button>
           </a>
         </div>
         <div className="card">
           <div className="imageDiv"></div>
+          <p>Sage </p>
           <a href="">
             <button>Purchase</button>
           </a>
         </div>
         <div className="card">
           <div className="imageDiv"></div>
-          <a href="">
-            <button>Purchase</button>
-          </a>
-        </div>
-        <div className="card">
-          <div className="imageDiv"></div>
+          <p>Ukpo </p>
           <a href="">
             <button>Purchase</button>
           </a>

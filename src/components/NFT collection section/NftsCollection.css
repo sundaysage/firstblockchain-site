@@ -6,13 +6,15 @@
   text-align: center;
 }
 .CardImgDiv {
+  font-size: xx-small;
   text-align: center;
+  background-color: rgb(23, 26, 43);
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  border-radius: 50px;
-  border: 2px solid white;
+  border-radius: 48%;
+  border: 1px solid rgb(87, 86, 86);
   margin: 5px;
 
   
@@ -23,13 +25,9 @@
   background-image: url(../assets/spider-g866f06237_1920.png);
   background-size: contain;
   background-repeat: no-repeat;
-  border: 2px solid;
+  border: .5px solid black;
   border-radius: 100%;
-  border: 3px solid  white;
-
-  /* border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
-  border-image-slice: 1; */
-  background-color: transparent;
+  background-color: black;
   color: white;
 }
 .CardImgDiv a{
@@ -38,4 +36,11 @@
 
 .fathercollectiondiv{
   text-align: center;
+}
+.broken{
+  text-align: center;
+  width: 100%;
+}
+.broken a{
+  color: rgb(187, 30, 187);
 }
